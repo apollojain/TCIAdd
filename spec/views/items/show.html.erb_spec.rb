@@ -11,8 +11,9 @@ RSpec.describe "items/show", :type => :view do
 
   it "renders attributes in <p>" do
     render
-    expect(rendered).to match(/Title/)
-    expect(rendered).to match(/Subtitle/)
-    expect(rendered).to match(/Code/)
+    expect(rendered).to match(/title/)
+    expect(rendered).to match(/subtitle/)
+    expect(rendered).to match(/code/)
+    
   end
 end
