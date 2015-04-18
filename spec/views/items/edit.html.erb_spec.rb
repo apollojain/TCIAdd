@@ -4,8 +4,8 @@ RSpec.describe "items/edit", :type => :view do
   before(:each) do
     @item = assign(:item, Item.create!(
       :title => "MyString",
-      :subtitle => "MyString",
-      :code => "MyString"
+      :subtitle => "Test",
+      :code => "MyS8r"
     ))
   end
 

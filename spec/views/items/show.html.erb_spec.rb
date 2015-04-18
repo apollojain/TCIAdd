@@ -3,9 +3,9 @@ require 'rails_helper'
 RSpec.describe "items/show", :type => :view do
   before(:each) do
     @item = assign(:item, Item.create!(
-      :title => "Title",
-      :subtitle => "Subtitle",
-      :code => "Code"
+      :title => "title",
+      :subtitle => "subtitle",
+      :code => "code"
     ))
   end
 
